@@ -27,29 +27,28 @@
         </a>
 
         <!-- Desktop Navigation -->
-        <div class="hidden items-center gap-3 sm:flex">
+       
+<div class="flex flex-wrap items-center justify-end gap-3">
 
-            <a
-                href="{% url 'todo_list' %}"
-                class="group flex items-center gap-2 rounded-lg px-4 py-2 font-medium text-gray-600 transition duration-300 hover:bg-blue-50 hover:text-blue-600"
-            >
-                <span class="transition group-hover:-translate-x-1">
-                    ←
-                </span>
-                All List
-            </a>
+    <a
+        href="{% url 'todo_list' %}"
+        class="group flex items-center gap-2 rounded-lg px-4 py-2 font-medium text-gray-600 transition duration-300 hover:bg-blue-50 hover:text-blue-600"
+    >
+        <span class="transition group-hover:-translate-x-1">
+            ←
+        </span>
+        All List
+    </a>
 
-            <a
-                href="{% url 'add_todo' %}"
-                class="rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-2.5 font-semibold text-white shadow-md transition duration-300 hover:-translate-y-0.5 hover:from-blue-700 hover:to-purple-700 hover:shadow-lg active:translate-y-0">
-                + Add Todo
-            </a>
+    <a
+        href="{% url 'add_todo' %}"
+        class="rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-2.5 font-semibold text-white shadow-md transition duration-300 hover:-translate-y-0.5 hover:from-blue-700 hover:to-purple-700 hover:shadow-lg active:translate-y-0"
+    >
+        + Add Todo
+    </a>
 
-        </div>
+</div>
 
-    
-
-    </div>
 
     <!-- Mobile Navigation -->
 </nav>
